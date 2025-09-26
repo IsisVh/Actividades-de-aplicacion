@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F9E1F7"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <!-- Logo o imagen -->
+    <ImageView
+        android:id="@+id/ivLogoBienvenida"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginBottom="24dp"
+        android:contentDescription="@string/app_name"
+        android:scaleType="centerInside"
+        android:src="@drawable/imag" />
+
+    <!-- Título -->
+    <TextView
+        android:id="@+id/tvTitleBienvenida"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:text="Temporizador"
+        android:textColor="#2E7D32"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+    <!-- Subtítulo -->
+    <TextView
+        android:id="@+id/tvSubtitleBienvenida"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:gravity="center"
+        android:text="Bienvenido a tu app de temporizador personal"
+        android:textColor="#424242"
+        android:textSize="16sp" />
+
+    <!-- Botón para continuar -->
+    <Button
+        android:id="@+id/btnContinuar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginHorizontal="40dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#2E7D32"
+        android:padding="12dp"
+        android:text="Comenzar"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white" />
+</LinearLayout>
